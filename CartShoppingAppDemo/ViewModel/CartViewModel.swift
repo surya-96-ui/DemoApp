@@ -12,6 +12,7 @@ class CartViewModel : ObservableObject{
     func fetchProducts() {
         self.cartList.append(CartItem(id: 1, name: "Pizza", description: "Delicious cheese pizza", price: 10, quantity: 1, unitPrice: 10))
         self.cartList.append(CartItem(id: 2, name: "Burger", description: "Juicy beef burger", price: 20, quantity: 1, unitPrice: 20))
+        self.cartList.append(CartItem(id: 1, name: "Burg", description: "Juicy beef burg", price: 30, quantity: 1, unitPrice: 30))
     }
     
     func totalProducts() -> Int {
